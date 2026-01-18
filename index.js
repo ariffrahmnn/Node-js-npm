@@ -1,3 +1,3 @@
-import {randomSuperhero} from "superheroes";
-var name = randomSuperhero();
+import generateName from "sillyname";
+var name = generateName();
 console.log("Im the " + name);
